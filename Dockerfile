@@ -4,6 +4,6 @@ LABEL maintainer="binu.eugin@sonetel.com"
 
 ADD sample.war /usr/local/tomcat/webapps/
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["catalina.sh", "run"]
